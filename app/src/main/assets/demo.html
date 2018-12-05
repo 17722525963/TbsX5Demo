@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>学习测试咯</title>
+
+    <button onclick="myTest()">测试Html Button调用</button>
+
+    <button onclick="jsAndroid()">Js 调用 Android</button>
+
+    <button onclick="jsAndroidSayHaHa()">调用Android 说“哈哈”方法</button>
+
+    <button onclick="jsMyAndroidSayHello()">测试两个方法是否可以</button>
+
+    <script>
+
+   function callJS(){
+      alert("Android调用了JS的callJS方法");
+   }
+
+   function myTest(){
+       alert("这是Html中的button调用");
+   }
+
+   function jsAndroid(){
+       test.hello("尝试调用Android方法");
+   }
+
+    function jsAndroidSayHaHa(){
+        test.sayHaha();
+    }
+
+    function jsMyAndroidSayHello(){
+        my.sayAnotherHello();
+    }
+
+
+
+
+
+    </script>
+
+</head>
+
+</html>
